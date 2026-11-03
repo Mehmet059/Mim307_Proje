@@ -2,13 +2,6 @@
 
 Gümüşler, Denizli'deki Bakım Evi ve Sosyal Proje arazisinin interaktif 3B modeli. Proje DXF modelinden üretilmiştir: arazi, yol, su yolu ve proje kütleleri modelden gelir; ağaçlar, çimen, kayalar, gökyüzü ve uzak arazi prosedürel olarak eklenmiştir. Tek dosyadır (`index.html`, yaklaşık 4,6 MB), Three.js içine gömülüdür, internet bağlantısı veya kurulum gerekmez.
 
-## Nasıl açılır
-
-- `index.html` dosyasını indirip modern bir tarayıcıda (Chrome, Edge, Firefox, Safari) çift tıklayarak açın.
-- GitHub Pages açıksa: https://mehmet059.github.io/Mim307_Proje/
-
-Yükleme ekranı bittikten sonra sahne açılır. WebGL destekleyen bir cihaz yeterlidir; telefon ve tablette de çalışır.
-
 ## Gezinme modları
 
 Sol üstteki çubuktan veya 1, 2, 3 tuşlarıyla seçilir.
@@ -29,13 +22,3 @@ Genel, Proje kütleleri, Su yolu ve Plan görünümleri tek tıkla kamerayı yer
 - Atmosfer: sis yoğunluğu ve rüzgâr şiddeti.
 - Katmanlar: ağaçlar, çimen, su, yol, proje kütleleri vb. tek tek açılıp kapatılır.
 - Kalite: Yüksek, Orta, Düşük. Yavaş cihazlarda Düşük seçin.
-
-## Varsayımlar
-
-- DXF dosyasında birim bilgisi yoktur, birim metre kabul edilmiştir.
-- Kuzey model +Y yönündedir.
-- Su yolu ve yol katmanları, arazi yüzeyine oturacak şekilde kaydırılarak yerleştirilmiştir.
-
-## Teknik
-
-Three.js r158, tek HTML dosyası, harici bağımlılık yok. Arazi 1 m çözünürlüklü ızgaradır, ağaçlar kart tabanlı ve instanced çizilir.
